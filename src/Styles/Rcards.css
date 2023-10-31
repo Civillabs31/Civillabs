@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,600,700&display=swap');
+
+.cardspanel{
+    --cardwidth:25vw;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(104.46deg, #CB0B3D 2.91%, #5B071D 97.26%);
+    width: var(--cardwidth);
+    height: 26vh;
+    border-radius: 20px;
+    color: white;
+}
+
+ #cardt{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    position: relative;
+    width:18vw;
+    top: 0.5vh;
+    font-weight: 700;
+    left: 1.7vw;
+}
+
+.cardspanel img{
+    width:max-content;
+    height:2rem;
+    position: relative;
+    right: 1vw;
+    top: 2.5vh;
+    margin-left: auto;
+}
+
+.cardspanel h2{
+    margin-top: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.9rem;
+    position: relative;
+    left: 1.5vw;
+    bottom: 0.6vh;
+}
+
+
+@keyframes pop {
+    0%{
+        opacity: 0;
+        filter: blur(3px);
+        scale: 0;
+    }
+    70%{
+       scale: 1.15;
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+        scale: 1;
+    }
+}
+
+.animatepops{
+    animation: pop 1s ease-in-out 0s 1 ;
+}
+
+.cardspanel:nth-of-type(2){
+    transition-delay: 200ms;
+}
+
+.cardspanel:nth-of-type(3){
+    transition-delay: 400ms;
+}
+
+
+.afteranimatepanel1{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+.beforeanimatepanel1{
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+.afteranimatepanel1{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+@media screen and (max-width:768px) {
+    .cardspanel{
+        --cardwidth:72vw;
+        height: 22vh;
+        border-radius: 9px;
+    }
+
+    .cardspanel:nth-of-type(2){
+        transition-delay: 0ms;
+    }
+    
+    .cardspanel:nth-of-type(3){
+        transition-delay: 0ms;
+    }
+
+    #cardt{
+        position: relative;
+        top: -0.5vh;
+        margin-left: 3vw;
+        font-size: 1.3rem;
+        width: 54vw;
+    }
+
+    .cardspanel img{
+        position: relative;
+        right: 3.5vw;
+        top: 2vh;
+    }
+
+    .cardspanel h2{
+        font-size: 1.5rem;
+        margin-left: 3vw;
+    }
+}
