@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,600,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerbar{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 3vh;
+    height: max-content;
+    background-color: rgba(23, 22, 22, 1);
+}
+
+.footerbar .backlinkpanel{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100vw;
+    --backlinkheight: calc(var(--footerheight) - 15vh);
+    height: var(--backlinkheight);
+    padding-bottom: 5vh;
+}
+
+.footerbar .footerpanel{
+    width: 20vw;
+    height: var(--backlinkheight);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2vh;
+}
+
+.footerpanel h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: rgba(176, 130, 14, 1);
+    width: max-content;
+    height: max-content;
+}
+
+.NavlinksD{
+    cursor: pointer;
+    color: white;
+}
+
+.NavlinksD:hover{
+    color: white;
+}
+
+.footerpanel .footeroptions{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.backlinkpanel .footercivil{
+    font-family: 'Montserrat', sans-serif;
+    width: 60vw;
+    text-align: right;
+}
+
+.footercivil h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    position: relative;
+    right: 5vw;
+}
+
+.footercivil h3 img{
+    width: 2.1vw;
+    height: 4vh;
+    position: relative;
+    bottom: 0.3vh;
+}
+
+.footercivil .footermissionary{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    right: 5vw;
+    top: 2vh;
+}
+
+.footercivil .footermail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    right: 5vw;
+    bottom: 1vh;
+}
+
+.footerbar .copyrightbar{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(1, 1, 1, 1);
+    width: 100vw;
+    height: 8vh;
+}
+
+
+.backlinkpanel .twostructures{
+    display: flex;
+    margin-left: 5vw;
+}
+
+.footericon{
+    width: 22px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+}
+
+.footeropttitle1{
+    position: relative;
+    right: 3.6vw;
+}
+
+.footeropttitle2{
+    position: relative;
+    right: 0.2vw;
+}
+
+#footerimageicon{
+    position: relative;
+    top: 0.4vh;
+}
+
+#mailiconmobile{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    
+    .footerbar{
+        --footerheight:78vh;
+    }
+    
+    .backlinkpanel .footercivil{
+        order: -1;
+        text-align: left;
+    }
+
+    .footercivil h3 img{
+        width: 7.5vw;
+        height: 4vh;
+    }
+    
+    .footerpanel h3{
+        font-size: 1.5rem;
+    }
+
+    .footercivil h3{
+        font-size: 1.8rem;
+        text-align: left;
+        margin-left: 10vw;
+        letter-spacing: 1px;
+    }
+
+    #mailicon{
+        display: none;
+    }
+
+    #mailiconmobile{
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .footerbar .copyrightbar{
+        height: 8vh;
+    }
+
+    .footercivil h5{
+        font-size: 1.2rem;
+        width: 100vw;
+        height: min-content;
+        margin-left: 10vw;
+    }
+
+    .footerpanel .footeroptions{
+        font-size: 1rem;
+    }
+
+    .copyrightbar{
+        font-size: 1rem;
+    }
+
+    .footerbar .footerpanel{
+        margin-top: 7vh;
+        height: max-content;
+        margin-left: 1vw;
+    }
+
+    .footerbar .backlinkpanel{
+        padding-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .backlinkpanel .twostructures{
+        gap: 29vw;
+    }
+}
+
+
+@media only screen and (max-width:768px) and (min-height : 800px) and (max-height : 1000px) {
+        .footerbar{
+            --footerheight:64vh;
+        }
+     }
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .footerbar{
+        --footbarheight:40vh;
+    }
+
+    .footerbar .footerpanel{
+        width: 29vw;
+        height: max-content;
+    }
+
+    .footerbar .backlinkpanel{
+        height: max-content;
+    }
+
+    .backlinkpanel .footercivil{
+        height: max-content;
+    }
+
+    .footercivil h3 img{
+        width: 4.5vw;
+        height: 3vh;
+    }
+}

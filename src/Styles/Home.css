@@ -1,0 +1,862 @@
+.home_div {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  overflow: hidden;
+}
+.circle {
+  width: 100%;
+  bottom: 0;
+  height: 20vh;
+  border-radius: 50%;
+  transform-origin: bottom;
+  background: #171616;
+  transform: scale(2);
+  position: relative;
+  z-index: 1;
+  margin-top: -30px;
+}
+.home_div_display {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #171616;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+.home_title1 {
+  color: #fff;
+  position: relative;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  z-index: 100;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+.home_div_bottom {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2%;
+}
+.home_title2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+.home_title_div {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding-left: 5%;
+}
+.home_image_container {
+  width: 90%;
+  height: 60vh;
+}
+.slick-next:before {
+  content: url("../images/right-arrow.png") !important;
+}
+.slick-prev:before {
+  content: url("../images/left-arrow.png") !important;
+}
+.slick-prev {
+  left: 15px !important;
+  z-index: 5 !important;
+}
+.slick-next {
+  right: 25px !important;
+}
+.image_div1 {
+  background-image: url("../images/1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.image_div2 {
+  background-image: url("../images/3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.image_div3 {
+  background-image: url("../images/2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+.slick-dots {
+  top: 100%;
+  height: 50px;
+}
+.slick-dots li button:before {
+  font-size: 18px !important;
+  color: #fff !important;
+}
+.home_container1 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+}
+.whychooseus {
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  text-align: center;
+  font-style: normal;
+}
+.whychooseus_text {
+  color: #000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  width: 75%;
+}
+span {
+  color: #000;
+  font-size: 28px !important;
+  font-style: normal;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.home_container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  gap: 40px;
+}
+.features {
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.features_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 80%;
+  height: 40vh;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.feature_container {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature_link {
+  color: #000;
+  text-decoration-line: underline;
+  font-weight: 600;
+}
+.feature_img {
+  width: 70px;
+  height: 70px;
+}
+.feature_text {
+  color: #000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.feature_text1 {
+  margin-bottom: 40px;
+}
+
+.home_container3 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.offer_services {
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home_services {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20%;
+  width: 70%;
+}
+.home_services_ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  width: 500px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.home_services_li {
+  display: list-item;
+  color: #000;
+}
+.home_services_ul1 {
+  /* margin-left: 200px !important; */
+  width: 500px !important;
+}
+/* contact */
+
+.img-temp {
+  width: 100%;
+  height: 300px;
+}
+
+.opacity-col {
+  position: relative;
+  top: -300px;
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  opacity: 0.8;
+}
+
+.schedule {
+  position: relative;
+  top: -550px;
+  color: white;
+  left: 100px;
+}
+
+.schedule h1 {
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.whatsapp-chat {
+  display: flex;
+  display: grid;
+  place-items: center;
+}
+
+.whatsapp-img {
+  position: relative;
+  cursor: pointer;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  margin-top: -92px;
+  margin-right: 400px;
+  /* padding: -200px; */
+}
+
+.whatBtn {
+  position: relative;
+  width: 180px;
+  height: 50px;
+  margin: auto;
+  margin-right: 200px;
+  margin-top: -80px;
+}
+
+.whatsapp-chat a {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #fff;
+  border: 3px solid white;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 15px;
+  outline: none;
+  border-radius: 54px;
+  text-decoration: none;
+}
+
+.whatsapp-chat a:hover {
+  color: black;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.whatsapp-chat h4 {
+  position: relative;
+  cursor: pointer;
+  font-family: Raleway;
+  margin: auto;
+  margin-right: 230px;
+  /* margin-top: 10px; */
+  text-decoration: underline;
+}
+
+.about-services h1 {
+  position: relative;
+  text-align: center;
+  font-family: Raleway;
+  top: -400px;
+  font-weight: 700;
+}
+
+.about-services img {
+  position: relative;
+  display: flex;
+  margin: auto;
+  left: -240px;
+  width: 400px;
+  height: 300px;
+  margin-top: -350px;
+  /* margin-bottom: 0px; */
+}
+
+.about-services h6 {
+  position: relative;
+  align-items: center;
+  margin: auto;
+  left: 100px;
+  font-family: Raleway;
+  width: 150px;
+  margin-top: -300px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.about-services button {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  padding: 15px 0 0 50px;
+  margin: auto;
+  left: 110px;
+  font-family: Raleway;
+  font-size: 13px;
+  margin-top: 20px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  background: #000000;
+  border-radius: 7px;
+  margin-bottom: 100px;
+}
+
+.about-services button:hover {
+  background: rgb(33, 32, 32);
+}
+
+@media (max-width: 830px) {
+  .schedule h1,
+  h4 {
+    margin-left: -50px;
+  }
+
+  .whatsapp-img {
+    margin-right: 340px;
+  }
+
+  .whatsapp-chat h4 {
+    margin-right: 180px;
+  }
+
+  .whatBtn {
+    margin-right: 150px;
+  }
+
+  .about-services img {
+    left: -150px;
+  }
+
+  .about-services h6 {
+    left: 200px;
+  }
+
+  .about-services button {
+    left: 200px;
+  }
+}
+
+@media (max-width: 770px) {
+  .whatsapp-img {
+    margin-right: 320px;
+  }
+}
+
+@media (max-width: 550px) {
+  .schedule h1 {
+    margin-top: -8px;
+    position: relative;
+    font-size: 25px;
+    left: -3px;
+  }
+
+  .whatsapp-img {
+    position: relative;
+    left: -40px;
+    margin-top: 25px;
+    top: -16px;
+  }
+
+  .whatBtn {
+    margin-right: 180px;
+  }
+
+  .schedule h4 {
+    position: relative;
+    margin-top: -1px;
+    font-size: 17px;
+    left: 50px;
+  }
+
+  .whatsapp-chat h4 {
+    margin-right: 265px;
+  }
+
+  .about-services h1 {
+    margin-top: -22px;
+  }
+  .about-services img {
+    display: flex;
+    width: 280px;
+    height: 180px;
+    margin: -350px 0 0 210px;
+  }
+
+  .about-services h6 {
+    text-align: center;
+    margin-left: -75px;
+    margin-top: 30px;
+  }
+
+  .about-services button {
+    display: flex;
+    align-items: center;
+    /* left: auto; */
+    margin-left: -90px;
+    padding: 0 45px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .schedule h1 {
+    font-size: 20px;
+    left: -20px;
+  }
+
+  .schedule h4 {
+    font-size: 15px;
+    left: 15px;
+  }
+  .about-services img {
+    width: 220px;
+    height: 120px;
+    margin-left: 180px;
+  }
+
+  .about-services h6 {
+    text-align: center;
+    margin-left: -130px;
+  }
+
+  .about-services button {
+    margin-left: -150px;
+  }
+
+  .whatsapp-img {
+    left: -60px;
+  }
+
+  .whatBtn {
+    width: 130px;
+    margin-left: -55px;
+  }
+
+  .whatsapp-chat h4 {
+    margin-left: -25px;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .home_title1 {
+    font-size: 50px;
+  }
+  .home_title2 {
+    font-size: 45px;
+  }
+  .home_services {
+    width: 90%;
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .home_title1 {
+    font-size: 45px;
+  }
+  .home_title2 {
+    font-size: 40px;
+  }
+  .home_container1 {
+    height: fit-content;
+    padding-top: 5%;
+  }
+  .whychooseus_text {
+    margin-top: 4%;
+    width: 90%;
+  }
+}
+@media (max-width: 830px) {
+  .about-services img {
+    left: -150px;
+  }
+
+  .about-services h6 {
+    left: 200px;
+  }
+
+  .about-services button {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home_title1 {
+    font-size: 40px;
+  }
+  .home_title2 {
+    font-size: 35px;
+  }
+  .image_div1,
+  .image_div2,
+  .image_div3 {
+    height: 300px;
+  }
+  .home_container2 {
+    margin-top: 4%;
+  }
+  .features_list {
+    width: 95%;
+  }
+  .feature_img {
+    width: 60px;
+    height: 60px;
+  }
+  .feature_text {
+    font-size: 22px;
+  }
+  .feature_container {
+    height: 70%;
+  }
+  .feature_container1 .feature_text1 {
+    margin-bottom: 8px;
+  }
+  .feature_text1 {
+    margin-bottom: 45px;
+  }
+  .circle {
+    border-radius: 60%;
+    height: 15vh;
+    transform: scale(1.5);
+  }
+  .home_services {
+    width: 100%;
+    margin-left: 30%;
+  }
+  .home_services_ul {
+    width: 80%;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .home_title1 {
+    font-size: 35px;
+  }
+  .home_title2 {
+    font-size: 30px;
+  }
+  .whychooseus {
+    font-size: 45px;
+  }
+  .whychooseus_text {
+    font-size: 25px;
+    margin-top: 8%;
+  }
+  .home_container2 {
+    margin-top: 12%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .home_services {
+    margin-left: 20%;
+  }
+  .home_services_ul {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home_title1 {
+    font-size: 32px;
+    width: 90%;
+  }
+  .offer_services {
+    font-size: 40px;
+  }
+  .whychooseus_text {
+    font-size: 22px;
+  }
+  .feature_container {
+    height: 25vh;
+    width: 50%;
+  }
+  .feature_container1 {
+    height: 20vh;
+  }
+  span {
+    font-size: 22px !important;
+  }
+  .features_list {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+  .home_container2 {
+    height: 120vh;
+  }
+  .home_services_ul {
+    font-size: 18px;
+    width: 480px;
+  }
+  .slick-dots {
+    margin-top: 10px !important;
+  }
+  .home_services {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .home_title1 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .home_services_ul {
+    width: 400px;
+  }
+  .home_services_ul1 {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .home_title1 {
+    font-size: 35px;
+    width: 90%;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8%;
+    color: #fff;
+  }
+  .home_title_div {
+    margin-left: 2%;
+  }
+  .home_image_container {
+    width: 90%;
+    height: 30vh;
+    background-size: contain;
+  }
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .slick-dots li button:before {
+    font-size: 14px !important;
+    color: #fff !important;
+  }
+  .slick-dots {
+    margin-top: 0px !important;
+  }
+  .slick-active button {
+    opacity: 1 !important;
+  }
+  .image_div1,
+  .image_div2,
+  .image_div3 {
+    height: 70vh !important;
+  }
+  .circle {
+    height: 18vh;
+    transform: scale(1.3);
+  }
+  .home_container1 {
+    height: 100vh;
+  }
+  .home_container2 {
+    height: 100vh;
+  }
+  .whychooseus_text,
+  span {
+    font-size: 22px;
+  }
+  .home_div_bottom {
+    height: 40vh;
+    margin-top: 15vh;
+  }
+  .home_div_display {
+    height: 120vh;
+    justify-content: flex-start;
+  }
+  .features {
+    width: 300px;
+    height: 70px;
+    font-size: 25px;
+  }
+  .feature_img {
+    width: 50px;
+    height: 50px;
+  }
+  .feature_text {
+    font-size: 20px;
+  }
+  .feature_container1 .feature_text1 {
+    margin-bottom: 11px;
+  }
+  .features_list {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+  }
+  .feature_container {
+    height: 25%;
+  }
+  .feature_text1 {
+    margin-bottom: 40px;
+  }
+  .offer_services {
+    font-size: 32px;
+  }
+  .home_services {
+    margin-left: 30%;
+    width: 100%;
+  }
+  .home_services_ul {
+    font-size: 15px;
+  }
+  .home_container3 {
+    height: 60vh;
+  }
+  .whychooseus {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .home_title1 {
+    font-size: 34px;
+    width: 95%;
+  }
+  .home_div_bottom {
+    padding-top: 8%;
+  }
+  .slick-dots li button:before {
+    font-size: 15px !important;
+    color: #fff !important;
+  }
+  .whychooseus {
+    font-size: 40px;
+  }
+  .offer_services {
+    font-size: 33px;
+  }
+  .home_services {
+    margin-left: 22%;
+  }
+  .circle {
+    transform: scale(1.8);
+  }
+}
+@media (max-width: 370px) {
+  .schedule h1 h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .home_title1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .whychooseus {
+    font-size: 35px;
+  }
+  .whychooseus_text,
+  span {
+    font-size: 20px;
+  }
+  .features {
+    width: 250px;
+    font-size: 22px;
+  }
+  .feature_img {
+    width: 40px;
+    height: 40px;
+  }
+  .features_list {
+    width: 100%;
+  }
+  .feature_text1 {
+    margin-bottom: 38px;
+  }
+  .feature_text,
+  .feature_link {
+    font-size: 18px;
+  }
+}
+
+

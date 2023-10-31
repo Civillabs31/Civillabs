@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactpanel{
+    font-family: 'Raleway';
+    width: 100vw;
+    height: 35vh;
+    background-color: rgba(255, 199, 54, 1);
+    font-weight: 700;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    letter-spacing: 0px;
+}
+
+.contactpanel .panelholder{
+    width: max-content;
+    height: max-content;
+    margin-top: auto;
+}
+
+.layers{
+    display: flex;
+    width: 100vw;
+    height: 1.75vh;
+    margin-top: auto;
+}
+
+.layer1 , .layer2 , .layer3 , .layer4 , .layer5 , .layer6 , .layer7 , .layer8{
+    width: 12.5vw;
+} 
+
+.layers .layer1{
+    background-color: rgba(253, 194, 28, 1);
+}
+
+.layers .layer2{
+    background-color: rgba(250, 158, 21, 1);
+}
+
+.layers .layer3{
+    background-color: rgba(242, 56, 43, 1);
+}
+
+.layers .layer4{
+    background-color: rgba(197, 4, 64, 1);
+}
+
+.layers .layer5{
+    background-color: rgba(134, 4, 40, 1);
+}
+
+.layers .layer6{
+    background-color: rgba(243, 57, 44, 1);
+}
+
+.layers .layer7{
+    background-color: rgba(252, 158, 24, 1);
+}
+
+.layers .layer8{
+    background-color: rgba(253, 194, 28, 1);
+}
+
+.contactinfodetails{
+    padding-top: 15vh;
+    font-size: 1rem;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfodetails .contactheaderinfo{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    gap: 25vw;
+}
+
+.moredetails{
+    color: rgb(0, 0, 0, 1);
+    padding-top: 3vh;
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+    position: relative;
+    right: 5vw;
+}
+
+.moredetails .address1{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: start;
+}
+
+.moredetails #ad1 p , .moredetails #ad2{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.5rem;
+}
+
+.contactform{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    padding-bottom: 10vh;
+    gap: 5vh;
+}
+
+.contactform h3{
+    --formwidth:70vw;
+    font-weight: bold;
+    width: var(--formwidth);
+}
+
+.contacttb{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+#inp1 , #inp2 , #inp3{
+    font-family: 'Montserrat';
+    background-color: rgba(236, 235, 235, 1);
+    border: 2px solid rgb(175, 170, 170);
+    border-radius: 3px;
+    width: 66vw;
+    padding-left: 2vw;
+    height: 6vh;
+}
+
+#inp4{
+    font-family: 'Montserrat';
+    background-color: rgba(236, 235, 235, 1);
+    border: 2px solid rgb(175, 170, 170);
+    border-radius: 3px;
+    width: 66vw;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+.contactform .acceptance{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    font-size: 1.6rem;
+    width: 66vw;
+    height: max-content;
+}
+
+.acceptance button{
+    font-weight: 500;
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 1.5vh 4vw;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    accent-color: black;
+    width: 2vh;
+    height: 2vh;
+    position: relative;
+    top: 0.4vh;
+}
+
+.contactpage{
+    overflow-x: visible;
+}
+
+.moredetails .contactinfo{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.contactinfo .ic1{
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.ic1 .contacticons{
+    width: 22px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 1px;
+}
+
+#id{
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width:768px){
+
+    .contactpanel .panelholder{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .contactinfodetails{
+        gap: 1vw;
+    }
+
+    .contactform h3{
+        font-size: 2rem;
+        margin-top: 25vw;
+    }
+
+    .contactinfodetails .contactheaderinfo{
+        gap:13vw;
+    }
+
+    .contactinfodetails{
+        padding-top: 6vh;
+    }
+
+    .contactinfo .ic1{
+        font-weight: 700;
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    .moredetails{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 18vw;
+        position: relative;
+        right: 0vw;
+    }
+
+    .moredetails #ad1 p, .moredetails #ad2{
+        font-size: 1.4rem;
+    }
+
+    #inp1 , #inp2 , #inp3 , #inp4{
+        width: 80vw;
+    }
+
+    .moredetails .address1 , .moredetails .contactnumber , .moredetails .contactmail{
+        font-size: 1rem;
+    }
+
+    .contactnumber p{
+        position: relative;
+        right: 2vw;
+    }
+
+    .acceptance p{
+        font-size: 1.3rem;
+    }
+
+    .acceptance button{
+        font-size: 1.3rem;
+        padding: 1.5vh 6vw;
+    }
+
+    .contactform{
+        padding-top: 0vh;
+        padding-bottom: 6vh;
+    }
+
+    .contactform .acceptance{
+        gap: 5vh;
+    }
+
+    .address1 p{
+        width: max-content;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .address1 p b{
+        font-weight: 800;
+    }
+
+    .contactpanel{
+        height: 19vh;
+    }
+
+    .contactnumber{
+        position: relative;
+        left: 0.3vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #inp1 , #inp2, #inp3, #inp4{
+        width: 75vw;
+    }
+    
+    .contactform .acceptance {
+        gap: 5vw;   
+    }
+
+    .moredetails{
+        position: relative;
+        right: 0vw;
+    }
+
+    .contactpanel{
+        height: 25vh;
+    }
+
+    .contactform{
+        padding-bottom: 3vh;
+    }
+}
