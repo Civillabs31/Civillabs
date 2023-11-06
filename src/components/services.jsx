@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/services.css';
+import { NavLink, redirect } from 'react-router-dom'
 import {
   Accordion,
   AccordionItem,
@@ -10,6 +11,10 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 function services() {
+
+  let redirect =()=>{
+    window.location.href="/rates"
+  }
   return (
     <>
       <div className="services">
@@ -73,7 +78,7 @@ function services() {
             <li>Electrical repair</li>
           </ul>
         </div>
-        <button className="rateBtn">Click here to Know the Rates ➜</button>
+        <button className="rateBtn" onClick={redirect}>Click here to Know the Rates ➜</button>
         <div className="singleLine"></div>
         <div className='available'><h1>We are Available at</h1></div>
         <div className='accordian_container'>
