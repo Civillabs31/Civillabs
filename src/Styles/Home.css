@@ -425,7 +425,7 @@ span {
     margin-top: -8px;
     position: relative;
     font-size: 25px;
-    left: -3px;
+    left: 15px;
   }
 
   .whatsapp-img {
@@ -443,11 +443,11 @@ span {
     position: relative;
     margin-top: -1px;
     font-size: 17px;
-    left: 50px;
+    left: 72px;
   }
 
   .whatsapp-chat h4 {
-    margin-right: 265px;
+    margin-right: 285px;
   }
 
   .about-services h1 {
@@ -506,7 +506,7 @@ span {
   }
 
   .whatBtn {
-    width: 130px;
+    width: 138px;
     margin-left: -55px;
   }
 

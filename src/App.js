@@ -9,7 +9,6 @@ import About from './components/About';
 import Rates from './components/Rates';
 import Services from './components/services';
 import EmailButton from './components/mail';
-import Aboutus2 from './components/Aboutus2';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/services" element={<Services/>}></Route>
           <Route path="/rates" element={<Rates/>}></Route>
           <Route path="/mail" element={<EmailButton/>}></Route>
-          <Route path="/ab2" element={<Aboutus2/>}></Route>
           <Route path="/*" element={<Home />}></Route>
         </Routes>
         <Footer/>

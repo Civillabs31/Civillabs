@@ -26,6 +26,70 @@ function About() {
       <div className="box1"></div>
       <div className="circles"></div>
     </div>
+    <div className='desk-heading'>
+    <div className='underline'></div>
+    <h1 className='desk'>Message from the desk</h1>
+    <div className='messgA'>
+    <p className='mssg1'><b>Dear Friends and Valued Customers,</b><br></br>
+    We are thrilled to introduce you to the next chapter of civil labs , a family legacy 
+    that has been cherished and nurtured across generations. As the proud children of the founders,
+     we are honoured to carry forward the tradition of excellence and innovation that has defined our
+      business since its inception in 1985  years.
+    
+    </p>
+    </div>
+
+    <div className='messgB'>
+    <p className='mssg2'><b>Our Story, Your Tradition</b><br></br>
+    Founded by our parents   Mr. Ramlu Kosgi   &  Mr. Istara Purve a small business enterprise with the
+     name  Krishna  enterprises,  was built on a foundation of hard work, dedication, and an unwavering 
+     commitment to providing the highest quality Services. Their vision and values have served as our guiding 
+     light, shaping the way we continue to operate the business.
+    </p>
+    </div>
+
+    <div className='messgC'>
+    <p className='mssg3'><b>A Modern Twist on Tradition</b><br></br>
+    While we cherish our heritage, we also recognize the importance of adapting to the changing times. With a 
+    fresh perspective, we are excited to introduce new elements and ideas to [ civil labs ] that reflect the 
+    needs and expectations of today's customers.
+    </p>
+    </div>
+
+    <div className='messgD'>
+    <p className='mssg4'><b>Our Commitment to Quality</b><br></br>
+    At civil labs , quality is a timeless tradition. We remain steadfast in our dedication to delivering best 
+    Services that meet and exceed your expectations. Each service that  we offer is a testament to our ongoing 
+    commitment to excellence.
+    
+    </p>
+    </div>
+
+    <div className='messgE'>
+    <p className='mssg5'><b>Community and Family</b><br></br>
+    Our parents always emphasized the importance of community and treating customers like family. We wholeheartedly
+     embrace this philosophy and strive to create a warm, inviting atmosphere for every member of our extended  family 
+     of Civil labs .
+    
+    </p>
+    </div>
+
+    <div className='messgF'>
+    <p className='mssg6'>We invite you to explore our website, discover our products services, and share in the joy of our family's legacy. 
+    Please feel free to reach out to us with any questions, suggestions, or feedback. Your support has been the cornerstone 
+    of our success, and we look forward to serving you with the same dedication and love that has made [Business Name] a household name.
+    Thank you for being a part of our story. We are excited to welcome you into the world of  Civil Labs– the tradition continues with a 
+    fresh perspective.
+    
+    </p>
+
+    <p className='mssg7'>Warm regards,<br></br>
+    Ravi R Kosgi</p>
+
+    </div>
+    <div className='partation'></div>
+
+    </div>
     <div className="heading">
       <h1>Mission</h1>
       <p>At civil labs, our mission is to deliver exceptional construction solutions that
@@ -129,7 +193,6 @@ function About() {
         highest achievements through hard work and dedication.</h6>
     </div>
   </div>
-
     </>
   )
 }

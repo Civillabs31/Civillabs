@@ -15,7 +15,6 @@
   font-size: 50px;
 }
 
-
 .cimg1 {
   width: 100%;
   height: 350px;
@@ -57,10 +56,125 @@
   border-radius: 50%;
 }
 
+.desk {
+  position: relative;
+  top: -865px;
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 63px;
+  text-align: center;
+  color: #000000;
+}
+
+.underline {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  left: 88px;
+  width: 248px;
+  height: 7px;
+  top: -780px;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 158, 21, 1) 33%,
+    rgba(197, 4, 64, 1) 32%
+  );
+}
+
+.mssg1 {
+  position: relative;
+  top: -800px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg2 {
+  position: relative;
+  top: -770px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg3 {
+  position: relative;
+  top: -740px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg4 {
+  position: relative;
+  top: -710px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg5 {
+  position: relative;
+  top: -680px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg6 {
+  position: relative;
+  top: -640px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.mssg7 {
+  position: relative;
+  top: -600px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  width: 680px;
+  margin: auto;
+  color: #000000;
+}
+
+.partation {
+  position: relative;
+  width: auto;
+  top: -530px;
+  margin: 0 90px 0 90px;
+  border: 1.99px;
+  opacity: 0.4;
+  border: 1.99px solid #000000;
+}
+
 .heading {
   position: relative;
   text-align: center;
-  top: -850px;
+  top: -485px;
   font-family: Raleway;
   font-size: 24px;
   color: #000000;
@@ -81,7 +195,7 @@
 .line1 {
   position: relative;
   width: auto;
-  top: 90px;
+  top: 70px;
   margin: 0 90px 0 90px;
   border: 1.99px;
   opacity: 0.4;
@@ -91,7 +205,7 @@
 .heading2 {
   position: relative;
   text-align: center;
-  top: -700px;
+  top: -385px;
   font-family: Raleway;
   font-size: 22px;
   color: #000000;
@@ -113,7 +227,7 @@
 .line2 {
   position: relative;
   width: auto;
-  top: 90px;
+  top: 70px;
   margin: 0 90px 0 90px;
   border: 1.99px;
   opacity: 0.4;
@@ -123,7 +237,7 @@
 .heading3 {
   position: relative;
   text-align: center;
-  top: -550px;
+  top: -280px;
   font-family: Raleway;
   font-size: 22px;
   line-height: 80;
@@ -145,9 +259,7 @@
 
 .about-us {
   position: relative;
-  /* display: grid;
-  place-items: center; */
-  top: -450px;
+  top: -218px;
   line-height: 40px;
 }
 
@@ -157,11 +269,11 @@
 }
 
 .heaa1 {
-  /* gap: 300px; */
+  
   display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .heaa1 .card1 {
@@ -189,17 +301,15 @@
 
 .about-us2 {
   position: relative;
-  /* display: grid;
-  place-items: center; */
-  top: -350px;
+  top: -150px;
   line-height: 30px;
 }
 
 .heaa2 {
   display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .heaa2 .card2 {
@@ -207,7 +317,7 @@
   display: block;
 }
 
-.card2 h5{
+.card2 h5 {
   margin-left: -28px;
   line-height: 0;
   padding-top: 30px;
@@ -221,8 +331,8 @@
   text-align: center;
 }
 
-#rep h5{
-    margin-left: -12px;
+#rep h5 {
+  margin-left: -12px;
 }
 
 #rep {
@@ -231,18 +341,15 @@
 
 .about-us3 {
   position: relative;
-  top: -250px;
+  top: -75px;
   line-height: 30px;
 }
 
 .heaa3 {
-  /* display: flex;
-  justify-content: center;
-  gap: 200px; */
   display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .heaa3 .card3 {
@@ -251,10 +358,10 @@
 }
 
 .card3 h5 {
-    margin-left: -28px;
-    line-height: 0;
-    padding-top: 30px;
-    font-weight: 700;
+  margin-left: -28px;
+  line-height: 0;
+  padding-top: 30px;
+  font-weight: 700;
 }
 
 #cont {
@@ -262,10 +369,10 @@
 }
 
 .card3 h6 {
-    width: 250px;
-    margin-left: -90px;
-    font-weight: 500;
-    text-align: center;
+  width: 250px;
+  margin-left: -90px;
+  font-weight: 500;
+  text-align: center;
 }
 
 #con {
@@ -274,20 +381,14 @@
 
 .about-us4 {
   position: relative;
-  /* display: grid;
-  place-items: center; */
-  top: -150px;
   line-height: 30px;
 }
 
 .heaa4 {
-  /* display: flex;
-  justify-content: center;
-  gap: 300px; */
   display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .heaa4 .card4 {
@@ -296,20 +397,20 @@
 }
 
 .card4 h5 {
-    margin-left: -10px;
-    line-height: 0;
-    padding-top: 30px;
-    font-weight: 700;
+  margin-left: -10px;
+  line-height: 0;
+  padding-top: 30px;
+  font-weight: 700;
 }
 
 .card4 h6 {
-    width: 250px;
-    margin-left: -90px;
-    font-weight: 500;
-    text-align: center;
+  width: 250px;
+  margin-left: -90px;
+  font-weight: 500;
+  text-align: center;
 }
 
-#acc h5{
+#acc h5 {
   margin-left: -28px;
 }
 
@@ -322,164 +423,133 @@
   text-align: center;
   margin: auto;
   font-family: Raleway;
-  top: -50px;
+  top: 115px;
   font-size: 14px;
   width: 700px;
   font-weight: 600;
+  margin-bottom: 200px;
 }
 
-@media (max-width:830px){
-
+@media (max-width: 830px) {
   #rep {
-    margin-right: -180px;
+    margin-right: -80px;
   }
 
   #con {
-    margin-right: -180px;
+    margin-right: -80px;
   }
-  
-
 }
 
-
-
-
-@media (max-width: 550px){
-
-  .logoo2{
+@media (max-width: 550px) {
+  .logoo2 {
     display: none;
   }
 
-  .card1 h5{
+  .card1 h5 {
     padding: 0;
     margin-left: -26px;
   }
 
-  .card1 h6{
+  .card1 h6 {
     width: 185px;
-
   }
 
-  .about-us{
-    top: -480px;
+  .about-us {
+    top: -250px;
   }
 
-  .about-us .heaa1{
+  .about-us .heaa1 {
     margin-left: 20px;
   }
 
-  .about-us #deter{
+  .about-us #deter {
     margin-top: 80px;
     margin-right: -75px;
-   
   }
 
-  
-
-
-  .about-us2{
-    top: -510px;
+  .about-us2 {
+    top: -310px;
     margin-left: 100px;
   }
 
   .heaa2 {
-      flex-direction: column;
+    flex-direction: column;
   }
 
-  .card2 h5{
+  .card2 h5 {
     padding: 0;
   }
 
-  .card2 h6{
+  .card2 h6 {
     width: 183px;
   }
 
-  .about-us2 #commit{
+  .about-us2 #commit {
     margin-top: -20px;
     margin-left: 165px;
   }
 
-   
-
-
-
-
-
-
-
-
-  .about-us3{
-    top: -550px;
+  .about-us3 {
+    top: -350px;
     margin-left: 280px;
   }
 
-  .heaa3{
+  .heaa3 {
     flex-direction: column;
   }
 
-  .card3 h5{
+  .card3 h5 {
     padding: 0;
   }
 
-  .card3 h6{
+  .card3 h6 {
     width: 188px;
   }
 
-  .about-us3 #innova{
+  .about-us3 #innova {
     margin-left: -180px;
   }
 
-  #innova h6{
+  #innova h6 {
     font-size: 11px;
   }
 
-   #con{
+  #con {
     margin-left: -15px;
     margin-top: -30px;
   }
 
-  #cont{
+  #cont {
     margin-left: -80px;
   }
 
-
-
-  
-
-  .card4 h5{
+  .card4 h5 {
     padding: 0;
     margin-left: -13px;
   }
 
-  #acc h5{
+  #acc h5 {
     margin-left: -30px;
   }
 
-  .card4 h6{
+  .card4 h6 {
     width: 185px;
-
   }
 
-  .about-us4{
-    top: -550px;
+  .about-us4 {
+    top: -350px;
   }
 
-  .about-us4 .heaa4{
+  .about-us4 .heaa4 {
     margin-left: 20px;
   }
 
-  .about-us4 #acc{
+  .about-us4 #acc {
     margin-top: 80px;
     margin-right: -57px;
-   
   }
 
-
-
-
-
-  
-  .last-line h5{
+  .last-line h5 {
     width: 400px;
     font-size: 10px;
   }
@@ -494,10 +564,53 @@
     width: 361px;
   }
 
-  .last-line h6{
+  .last-line h6 {
     margin-top: -420px;
     width: 355px;
     font-size: 12px;
   }
-  
+
+  .desk {
+    font-size: 28px;
+  }
+
+  .underline {
+    left: 64px;
+    width: 183px;
+  }
+
+  .mssg1 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg2 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg3 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg4 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg5 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg6 {
+    font-size: 12px;
+    width: 356px;
+  }
+
+  .mssg7 {
+    font-size: 12px;
+    width: 356px;
+  }
 }
