@@ -1,0 +1,257 @@
+Web Service Definition:
+
+    allows different applications to communicate with each other over internet
+    exchange of data between different systems and platforms
+    use standard protocols and languages to facilitate communication
+
+
+Types : 
+
+    SOAP(Simple Object Access Protocol) :  
+        Uses a protocol (SOAP) for communication
+        Can operate over various protocols, including HTTP, SMTP, and more.
+        uses XML (eXtensible Markup Language) as a messaging format
+        Can be stateful or stateless, but it often relies on stateful communication.
+        Better suited for enterprise-level applications with strict security and transaction requirements.
+        Requires more bandwidth and is considered more complex.
+        Has a formal contract (WSDL) for communication.
+
+    REST(Representational State Transfer) : 
+        Uses standard HTTP protocols (GET, POST, PUT, DELETE) for communication.
+        Primarily operates over HTTP.
+        Supports multiple formats but mainly prefers with JSON (JavaScript Object Notation).
+        Stateless communication
+        Well-suited for mobile applications and distributed systems.
+        Generally easier to implement and understand.
+        No formal contract is required.
+
+    Operate Suited Complexity Protocol Message State Contract
+
+
+XML:
+    markup language
+    defines a set of rules for encoding documents in a format that is both human-readable and machine-readable
+    simple, flexible, and self-descriptive way to store data
+
+    Markup Language:
+        Tags are enclosed in angle brackets (e.g., <tag>) and define data structure
+    
+    Self-Descriptive:
+        they contain information about the structure and content of the data they represent.
+
+    Hierarchical Structure:
+        elements can have parent-child relationships
+
+    Extensibility:
+        allows users to define their own custom elements and attributes
+
+    Syntax:
+        <person>
+            <name>Sonam Shah</name>
+            <age>20</age>
+            <city>San Vangani</city>
+        </person>
+
+
+SOAP and REST Architecture:
+    SOAP:
+        Message Format:
+            SOAP messages are XML-based, consisting of an envelope that contains header and body elements.
+            The envelope is mandatory, while the header and body are optional.
+
+        Envelope:
+            contains two child elements: Header and Body.
+            The "Header" contains optional header information, and the "Body" contains the actual message.
+
+            <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:m="http://www.example.org/stock">
+                <soap:Header>
+                    <!-- Optional header information -->
+                </soap:Header>
+                <soap:Body>
+                    <!-- Actual message data -->
+                </soap:Body>
+            </soap:Envelope>
+
+        Transport: Uses HTTP and SMTP
+
+
+    REST:
+        Statelessness:
+            Each request from a client to a server must contain information needed to fulfill that request.
+
+        Client-Server Architecture:
+            Cient is responsible for the user interface and user experience, 
+            while the server is responsible for processing requests and managing resources
+
+        Resource-Based:
+            Resources, such as data or services, are identified by URIs.     
+
+
+Web Service Development LifeCycle 
+    involves a series of steps from requirements to deployment and maintenance
+
+    Requirements Analysis Phase
+
+    Requirements Phase
+
+    Analysis Phase
+
+    Design Phase
+
+    Coding Phase
+
+    Testing Phase
+
+    Deployment Phase
+
+    Maintenance Phase
+
+
+    basically includes all phases from SDLC
+
+
+SOA ( Service Oriented Architecture ) :
+    aims to organize software systems as a set of services
+    These services are designed to be loosely coupled, interoperable, and independently deployable
+    REST and SOAP implements SOA
+
+    Service Orientation:
+        functionality is organized into services.
+
+    Loose Coupling:
+        independent and do not rely on the internal details of each other
+        allows better flexibility and easier maintenance.
+
+    Interoperability:
+        Services communicate and work together even if implemented using different technologies
+    
+    Standardized Communication:
+        Communicates using standard protocols and formats
+        WSDL (Web Services Description Language) and SOAP 
+        provides a standardized way to describe and communicate with services
+
+    Reusability:
+        Reusable across different applications and business processes
+        Promotes efficiency and consistency in the development process
+
+    RLIPS
+
+
+HTTP  :
+    HTTP Operations (HTTP Methods):
+        GET:
+            Used to retrieve information from the server.
+            Should not have a request body.
+
+        POST:
+            Used to submit data to be processed to a specified resource.
+            Can have a request body.
+
+        PUT:
+            Used to update a resource or create a new resource if it doesn't exist.
+            Typically includes a request body with the updated data.
+
+        DELETE:
+            Used to request the removal of a resource.
+            May or may not have a request body.
+
+
+    Request-Response Model:
+        Request:
+            Comprises a request line, headers, an optional body, and a method.
+
+            Code: GET /index.html HTTP/1.1
+
+        Response:
+            Comprises a status line, headers, an optional body, and a status code.
+
+            Code: HTTP/1.1 200 OK
+
+        Status Codes:
+            Informational responses (100 – 199)
+            Successful responses (200 – 299)
+            Redirection messages (300 – 399)
+            Client error responses (400 – 499)
+            Server error responses (500 – 599)
+
+        Headers:
+            include Content-Type, Content-Length, Cache-Control, and Authorization.
+
+        Body:
+            Contains the actual data being sent in the request or response.
+
+
+Web Service Quality of Service:
+    set of attributes or characteristics that define the performance, reliability, and overall effectiveness
+    ensures that web services meet the requirements of users and applications
+
+    Reliability:
+        measures the ability of a web service to consistently and accurately perform its intended functions.
+
+    Performance:
+        refers to the speed and efficiency of a web service in processing requests and responses.
+
+    Scalability:
+        capability to handle increased load by adding resources or nodes.
+
+    Security:
+        ensures the protection of data, transactions, and communication
+
+    Availability:
+        measure of the percentage of time a web service is operational and accessible.
+
+    Maintainability:
+        ease with which a web service can be modified or repaired.
+
+    Monitoring and Logging:
+        continuous tracking of web service performance for Analysis and Auditing.
+
+
+WCF Architecture:
+    framework for building service-oriented applications
+
+    provides a unified programming model for developing distributed applications by enabling you to
+    build secure, reliable, and transacted services
+
+    Supports various protocols like HTTP, TCP, and named pipes    
+
+    Service Contract:
+        Defines the operations that a service can perform.
+        Specifies the methods that clients can call and the data types they use.
+
+    Data Contract:
+        Describes the data types that are exchanged between the client and the service.
+
+    Service Implementation:
+        Contains the actual implementation of the service operations.
+
+    Service Host:
+        Hosts the WCF service.
+
+    Endpoint:
+        Specifies the address, binding, and contract for a service.
+        The address defines where the service is located.
+
+    Message:
+        Represents the unit of communication between the client and the service.
+
+
+Disadvantages of REST :
+    Limited Standardization:
+        can lead to inconsistencies in how RESTful services are designed.
+    
+    Complex Queries:
+        can struggle with complex queries, as the URL structure may become too complex.
+
+    Security:
+        relies on the underlying security features of HTTP (HTTPS) but may lack some of the 
+        built-in security features
+
+    Limited Transactions:
+        may lack support for distributed transactions
+
+    Not Suitable for All Use Cases:
+        might not be the best choice for scenarios that require high levels of security,
+        ACID transactions, or complex workflows.
+
+
