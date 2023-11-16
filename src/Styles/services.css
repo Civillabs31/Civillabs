@@ -377,11 +377,49 @@
   font-weight: 700;
 }
 
+.quotationbox2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 12vh;
+  background-color: #CB0B3D;
+  padding-bottom: 2.15vh;
+  margin-top: 30vh;
+}
+
+.quotationbox2 h2 a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+
+.quotationbox2 img{
+  width: 2.5rem;
+}
+
+@media (max-width: 768px){
+  .quotationbox2{
+    margin-top: 5vh;
+}
+
+.quotationbox2 h2 a{
+    font-size: 1.8rem;
+}
+
+.quotationbox2 img{
+    width: 2rem;
+}
+
+}
+
 
 @media (max-width: 550px){
   .rec4{
     margin-left: auto;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   .list1{
@@ -407,7 +445,7 @@
 
   .rec6{
     margin-left: auto;
-    padding-left: 25px;
+    padding-left: 15px;
   }
   .list3 .ul3 {
     

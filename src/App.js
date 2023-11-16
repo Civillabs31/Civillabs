@@ -9,6 +9,7 @@ import About from './components/About';
 import Rates from './components/Rates';
 import Services from './components/services';
 import EmailButton from './components/mail';
+import Special_Service from './components/Special_Service';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/rates" element={<Rates/>}></Route>
           <Route path="/mail" element={<EmailButton/>}></Route>
           <Route path="/*" element={<Home />}></Route>
+          <Route path="/Special_Service" element={<Special_Service />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

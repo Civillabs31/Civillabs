@@ -33,6 +33,7 @@ export default function Footer() {
               <NavLink to='/services' className='NavlinksD' ><p> Coatings and Applications </p></NavLink>
               <NavLink to='/services' className='NavlinksD' ><p> Plumbing </p></NavLink>
               <NavLink to='/services' className='NavlinksD' ><p> More Services </p></NavLink>
+              <NavLink to='/Special_Service' className='NavlinksD' ><p> Special Services </p></NavLink>
             </div>
           </div>
           <div className="footerpanel">
