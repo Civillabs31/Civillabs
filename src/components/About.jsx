@@ -12,6 +12,7 @@ import Png7 from '../images/project-management.png';
 import Png8 from '../images/continuous-improvement.png';
 import Png9 from '../images/passion.png';
 import Png0 from '../images/accountability.png';
+import png11 from '../images/public-service.png';
 
 function About() {
   return (
@@ -29,6 +30,7 @@ function About() {
     <div className='desk-heading'>
     <div className='underline'></div>
     <h1 className='desk'>Message from the desk</h1>
+    <div className='message-from'>
     <div className='messgA'>
     <p className='mssg1'><b>Dear Friends and Valued Customers,</b><br></br>
     We are thrilled to introduce you to the next chapter of civil labs , a family legacy 
@@ -87,6 +89,7 @@ function About() {
     Ravi R Kosgi</p>
 
     </div>
+    </div>
     <div className='partation'></div>
 
     </div>
@@ -108,7 +111,7 @@ function About() {
     </div>
     <div className="heading3">
       <h1>Core Values</h1>
-      <h4>꧁༺श्रमेणैव परं सिद्धिं༻꧂</h4>
+      <h5>꧁༺श्रमेणैव परं सिद्धिं༻꧂</h5>
 
       <h5>(Sramenaiva paraṁ siddhim) - Attain the highest achievement through hard work.</h5>
     </div>
@@ -152,7 +155,7 @@ function About() {
     </div>
     <div className="about-us3">
       <ul className="heaa3">
-        <li className="card3">
+        <li className="card3" id='coll'>
           <img className="img2" src={Png6} alt="people" />
           <h5>Collaboration</h5>
           <h6> Demonstrating unwavering resolve
@@ -192,6 +195,52 @@ function About() {
       <h6>These core values can guide our organizations in the pursuit of the
         highest achievements through hard work and dedication.</h6>
     </div>
+  </div>
+
+  <div className='social-services'>
+  <div className='line3'></div>
+
+  <div className='Social-heading'><h1>Social Services</h1>
+  <img className='public-service' src={png11} alt='public-service'></img>
+  </div>
+  <div className='social-mssg'>
+  <div className='socialA'>
+  <h5 className='ruralMssg'><b>Mission Rural Shiksha Programme (MRSP)<br></br> 
+  "Bridging the rural-urban divide"</b> </h5>
+  <p>We are passionate about contributing to social development and have a strong desire
+   to make a difference in the lives of rural students. We have initiated the Civil Labs 
+   Rural Shiksha Programme (MRP), which aims to light up young minds. This is a digital 
+   tutoring program meticulously designed to provide quality education to rural children.
+    In collaboration with rural schools, we offer a learning platform that includes online
+     classes in local languages, self-learning modules, personalized assessments, and fosters peer learning, 
+     all under the guidance of dedicated Civil Labs. Our goal is to make quality education accessible, empowering
+      young minds for a brighter future and transforming communities.</p>
+  </div>
+
+  <div className='socialB'>
+  <h5><b>"Paint the School"</b></h5>
+  <p>Students in rural areas spend a significant portion of their time at school, and when they observe the conditions
+   of government schools, they often develop disinterest in attending. That's why, at Civil Labs, we have undertaken a
+    heartfelt initiative to transform schools free of cost.Our mission is to breathe new life into these educational institutions, 
+    making them more inviting and vibrant for the students. We understand that a well-maintained and aesthetically pleasing learning
+     environment can have a profound impact on a child's enthusiasm for education. By renovating schools and giving them a fresh look, 
+     we aim to kindle a renewed passion for learning in the hearts of the students. Witnessing the smiles on the faces of these children 
+     as they step into their newly renovated school is the greatest reward. It's a testament to the positive change we bring to their lives,
+      instilling hope and making their educational journey brighter and more enjoyable.</p>
+  </div>
+
+  <div className='socialC'>
+  <h5><b>"Books for the Brain"</b></h5>
+  <p>Books and school bags are indispensable tools for young students on their educational journey. At Civil Labs, we are deeply committed to 
+  ensuring that every child's path to learning is clear and unobstructed. We firmly believe that no child should face barriers in their education
+   due to the unavailability of essential school stationery. To realize this vision, we place great emphasis on providing students with the best 
+   quality books for their studies. We understand that books are not just printed pages; they are windows to knowledge, gateways to imagination, 
+   and keys to a world of opportunities. By equipping these young minds with the right educational materials, we empower them to explore their
+    potential and unlock their academic prowess. We ensure no student is left behind due to the lack of essential learning resources. With "Books 
+    for the Brain," we aim to instil a sense of curiosity and a love for learning in every child. By eliminating the obstacles that may hinder their 
+    educational progress, we pave the way for a brighter future for all.</p>
+  </div>
+  </div>
   </div>
     </>
   )

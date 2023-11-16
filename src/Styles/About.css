@@ -168,7 +168,7 @@
   margin: 0 90px 0 90px;
   border: 1.99px;
   opacity: 0.4;
-  border: 1.99px solid #000000;
+  border: 0.99px solid #000000;
 }
 
 .heading {
@@ -199,7 +199,7 @@
   margin: 0 90px 0 90px;
   border: 1.99px;
   opacity: 0.4;
-  border: 1.99px solid #000000;
+  border: 0.99px solid #000000;
 }
 
 .heading2 {
@@ -231,7 +231,7 @@
   margin: 0 90px 0 90px;
   border: 1.99px;
   opacity: 0.4;
-  border: 1.99px solid #000000;
+  border: 0.99px solid #000000;
 }
 
 .heading3 {
@@ -248,9 +248,9 @@
   font-weight: bold;
 }
 
-.heading3 h4 {
-  line-height: 80px;
-  font-weight: 600;
+.heading3 h5 {
+  line-height: 50px;
+  /* font-weight: 600; */
 }
 
 .heading3 h5 {
@@ -269,7 +269,6 @@
 }
 
 .heaa1 {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -430,6 +429,74 @@
   margin-bottom: 200px;
 }
 
+.line3 {
+  position: relative;
+  width: auto;
+  top: 30px;
+  margin: 0 90px 0 90px;
+  border: 1.99px;
+  opacity: 0.4;
+  border: 0.99px solid #000000;
+  margin-bottom: 200px;
+
+}
+
+.Social-heading{
+  position: relative;
+font-family: Raleway;
+font-size: 54px;
+font-weight: bold;
+text-align: center;
+top: -60px;
+color: #000000;
+
+}
+
+.public-service{
+  height: 52px;
+  width: 52px;
+}
+
+.socialA{
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+width: 793px;
+color: #000000;
+margin: auto;
+
+}
+
+.socialB{
+  position: relative;
+display: block;
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+text-align: right;
+width: 793px;
+color: #000000;
+top: 60px;
+margin: auto;
+margin-bottom: 200px;
+}
+
+.socialC{
+position: relative;
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+width: 793px;
+color: #000000;
+margin: auto;
+top: -50px;
+
+}
+
 @media (max-width: 830px) {
   #rep {
     margin-right: -80px;
@@ -437,6 +504,12 @@
 
   #con {
     margin-right: -80px;
+  }
+
+  .social-mssg .socialA, .socialB, .socialC{
+    font-size: 13px;
+    width: 620px;
+
   }
 }
 
@@ -515,8 +588,12 @@
   }
 
   #con {
-    margin-left: -15px;
+    margin-left: -27px;
     margin-top: -30px;
+  }
+
+  #coll {
+    margin-left: -25px;
   }
 
   #cont {
@@ -579,38 +656,52 @@
     width: 183px;
   }
 
-  .mssg1 {
+  
+  .message-from .mssg1,.mssg2,.mssg3,.mssg4,.mssg5,.mssg6,.mssg7{
     font-size: 12px;
     width: 356px;
+  
   }
 
-  .mssg2 {
+  .social-mssg .socialA, .socialB, .socialC{
     font-size: 12px;
-    width: 356px;
+    width: 350px;
+  
+  }
+}
+
+@media (max-width: 300px) {
+  .desk {
+    font-size: 20px;
   }
 
-  .mssg3 {
-    font-size: 12px;
-    width: 356px;
+  .underline {
+    left: 46px;
+    width: 131px;
   }
 
-  .mssg4 {
-    font-size: 12px;
-    width: 356px;
-  }
+  
+.message-from .mssg1,.mssg2,.mssg3,.mssg4,.mssg5,.mssg6,.mssg7{
+  font-size: 10px;
+  width: 265px;
 
-  .mssg5 {
-    font-size: 12px;
-    width: 356px;
-  }
+}
 
-  .mssg6 {
-    font-size: 12px;
-    width: 356px;
-  }
+.heading p, .heading2 p{
+  font-size: 10px;
+  width: 253px;
+}
 
-  .mssg7 {
-    font-size: 12px;
-    width: 356px;
-  }
+.last-line h6 {
+  width: 229px;
+  font-size: 10px;
+}
+
+.social-mssg .socialA, .socialB, .socialC{
+  font-size: 9px;
+  width: 265px;
+
+}
+
+
 }

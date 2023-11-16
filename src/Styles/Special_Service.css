@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .rectangles {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+    background:#FAC631;
+    ;
+  }
+  
+  .rectangles h1 {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-family: Raleway;
+    top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .rect2 {
+    position: relative;
+    width: 20px;
+    height: 300px;
+    margin-top: -300px;
+    background: #FC9E18;
+    ;
+    ;
+  }
+  
+  .rect3 {
+    position: relative;
+    width: 20px;
+    height: 300px;
+    left: 20px;
+    margin-top: -300px;
+    background: #FFBC00;
+  }
+  
+  .rect4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-right: auto;
+    top: 92px;
+    margin-left: 70px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight:700;
+    text-align: center;
+    padding-left: 60px;
+    color: #000000;
+    background: linear-gradient(90deg, rgba(203,11,61,1) 2%, rgba(250,198,49,1) 2%);
+  }
+  
+  .list1 {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+  }
+  
+  .lists1 .ull1 {
+    display: block;
+    font-family: "Montserrat";
+    padding: 150px;
+    font-weight: 500;
+  }
+  
+  .lists1 ul li {
+    display: list-item;
+    font-size: 20px;
+    list-style: disc;
+  }
+  
+  .rect5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-right: auto;
+    top: -75px;
+    margin-left: 70px;
+    margin-right: auto;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 60px;
+    color: #000000;
+    background: linear-gradient(90deg, rgba(203,11,61,1) 2%, rgba(250,198,49,1) 2%);
+
+  }
+  
+  .lists2 .ull2 {
+    display: block;
+    padding: 0 0 0 150px;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  
+  .lists2 ul li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 20px;
+  }
+  
+  .rect6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-right: auto;
+    top: 70px;
+    margin-left: 70px;
+    margin-right: auto;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 60px;
+    color: #000000;
+    background: linear-gradient(90deg, rgba(203,11,61,1) 2%, rgba(250,198,49,1) 2%);
+
+  }
+  
+  .lists3 .ull3 {
+    position: relative;
+    display: block;
+    padding: 120px 0 0 150px;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  
+  .lists3 ul li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 20px;
+  }
+  
+  .rect7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-right: auto;
+    top: 70px;
+    margin-left: 70px;
+    margin-right: auto;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 60px;
+    color: #000000;
+    background: linear-gradient(90deg, rgba(203,11,61,1) 2%, rgba(250,198,49,1) 2%);
+
+  }
+  
+  .lists4 .ull4 {
+    position: relative;
+    display: block;
+    padding: 120px 0 0 150px;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  
+  .lists4 ul li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 20px;
+  }
+  
+  .rect8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-right: auto;
+    top: 70px;
+    margin-left: 70px;
+    margin-right: auto;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 60px;
+    color: #000000;
+    background: linear-gradient(90deg, rgba(203,11,61,1) 2%, rgba(250,198,49,1) 2%);
+
+  }
+  
+  .lists5 .ull5 {
+    position: relative;
+    display: block;
+    padding: 120px 0 0 150px;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  
+  .lists5 ul li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 20px;
+  }
+  
+  
+  
+  @media (max-width: 550px){
+
+    .rectangles h1{
+        font-size: 32px;
+        align-items: center;
+    }
+    .rect4{
+      margin-left: auto;
+      padding-left: 0px;
+      font-size: 20px;
+    }
+  
+    .lists1{
+      width: 100%;
+    }
+  
+    .lists1 .ull1 {
+      padding: 120px 0 0 67px;
+      
+    }
+  
+    .rect5{
+      margin-left: auto; 
+      padding-left: 30px;
+      top: 80px;
+    }
+  
+    .lists2 .ull2 {
+      
+      padding: 120px 0 0 63px;
+      
+    }
+  
+    .rect6{
+      margin-left: auto;
+      padding-left: 15px;
+    }
+    .lists3 .ull3 {
+      
+      padding: 120px 0 0 60px;
+      
+    }
+  
+    .rect7{
+      margin-left: auto;
+      padding-left: 30px;
+    }
+    .lists4 .ull4 {
+      
+      padding: 120px 0 0 70px;
+      
+    }
+  
+    .rect8{
+      margin-left: auto;
+      padding-left: 40px;
+    }
+    .lists5 .ull5 {
+      
+      padding: 120px 0 0 70px;
+      
+    }
+  
+   
+  }
+  

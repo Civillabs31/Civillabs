@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Styles/services.css';
+import {NavLink} from 'react-router-dom';
+import rightarrow from '../images/right-arrow2.png'
 import {
   Accordion,
   AccordionItem,
@@ -133,6 +135,15 @@ function services() {
               </AccordionItem>
             </Accordion>
           </div>
+        </div>
+
+        <div className="quotationbox2">
+        <h2><u style={{color:'white'}}>
+          <NavLink to="/Special_Service">
+          Checkout Special Sevices
+            <img src={rightarrow} style={{width:"2.5rem",'position':'relative' ,'left':"1vw"}} alt="right_arrow" />
+          </NavLink>
+          </u></h2>
         </div>
 
       </div>
