@@ -8,8 +8,9 @@ import img2 from '../images/chat.png';
 import img3 from '../images/paper.png';
 import img4 from '../images/6.webp';
 import img5 from '../images/whatsapp-logo.png';
-import img6 from '../images/plumb.jpg';
+import img6 from '../images/plumb2.jpg';
 import img7 from '../images/Frame 12.png';
+import img8 from '../images/Black.jpg';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
@@ -136,6 +137,7 @@ const Home = () => {
                     </div>
                     <div className="about-services">
                         <h1>Services</h1>
+                        <img id='black-img' src={img8} alt='images' />
                         <img className="plumg-img" src={img6} alt="images" />
                         <h6>Our Services are Available all throughout the city.
                             Our Services:-

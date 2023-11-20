@@ -343,9 +343,23 @@ span {
   left: -240px;
   width: 400px;
   height: 300px;
-  margin-top: -350px;
-  /* margin-bottom: 0px; */
+  margin-top: -316px;
+
 }
+
+.about-services #black-img {
+  position: relative;
+  display: flex;
+  margin: auto;
+  left: -222px;
+  width: 394px;
+  height: 300px;
+  margin-top: -350px;
+
+
+}
+
+
 
 .about-services h6 {
   position: relative;
@@ -452,10 +466,16 @@ span {
     margin-top: -22px;
   }
   .about-services img {
-    /* display: flex; */
     width: 280px;
     height: 180px;
+    margin: -196px 0 0 210px;
+  }
+
+  .about-services #black-img{
+    width: 274px;
+    height: 180px;
     margin: -350px 0 0 210px;
+
   }
 
   .about-services h6 {
@@ -476,17 +496,24 @@ span {
 @media (max-width: 300px) {
   .schedule h1 {
     font-size: 20px;
-    left: -20px;
+    left: -33px;
   }
 
   .schedule h4 {
     font-size: 15px;
-    left: 15px;
+    left: -46px;
   }
   .about-services img {
     width: 220px;
     height: 120px;
-    margin-left: 180px;
+    margin: -135px 0 0 177px;
+  }
+
+  .about-services #black-img{
+    width: 214px;
+    height: 120px;
+    margin-left: 173px;
+
   }
 
   .about-services h6 {
@@ -508,7 +535,7 @@ span {
   }
 
   .whatsapp-chat h4 {
-    margin-left: -25px;
+    margin-left: 3px;
   }
 }
 
@@ -543,6 +570,10 @@ span {
   }
 }
 @media (max-width: 830px) {
+
+  .about-services #black-img{
+    left: -128px;
+  }
   .about-services img {
     left: -150px;
   }
@@ -782,7 +813,7 @@ span {
     width: 100%;
   }
   .home_services_ul {
-    font-size: 15px;
+    font-size: 12px;
   }
   .home_container3 {
     height: 60vh;
@@ -807,7 +838,7 @@ span {
     font-size: 40px;
   }
   .offer_services {
-    font-size: 33px;
+    font-size: 22px;
   }
   .home_services {
     margin-left: 22%;
@@ -830,11 +861,11 @@ span {
     width: 100%;
   }
   .whychooseus {
-    font-size: 35px;
+    font-size: 28px;
   }
   .whychooseus_text,
   span {
-    font-size: 20px;
+    font-size: 16px;
   }
   .features {
     width: 250px;
