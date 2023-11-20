@@ -493,7 +493,7 @@ span {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 300px) {
   .schedule h1 {
     font-size: 20px;
     left: -33px;
@@ -852,6 +852,19 @@ span {
     text-align: center;
     font-size: 20px;
     margin-left: -30px;
+  }
+
+  .about-services img {
+    width: 220px;
+    height: 120px;
+    margin: -135px 0 0 157px;
+  }
+
+  .about-services #black-img{
+    width: 214px;
+    height: 120px;
+    margin-left: 153px;
+
   }
 }
 @media screen and (max-width: 320px) {
