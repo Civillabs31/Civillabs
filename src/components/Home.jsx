@@ -9,6 +9,7 @@ import img3 from '../images/paper.png';
 import img4 from '../images/6.webp';
 import img5 from '../images/whatsapp-logo.png';
 import img6 from '../images/plumb.jpg';
+import img7 from '../images/Frame 12.png';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
@@ -122,7 +123,7 @@ const Home = () => {
                 </div>
 
                 <div className="contact-temp">
-                    <img className="img-temp" src={img4} alt="images" />
+                    <img className="img-temp" src={img7} alt="images" />
                     <div className="opacity-col"></div>
                     <div className="schedule">
                         <h1>To Schedule our service</h1>

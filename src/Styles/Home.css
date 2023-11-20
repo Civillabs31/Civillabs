@@ -116,7 +116,7 @@
 }
 .whychooseus {
   color: #000;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -127,14 +127,14 @@
   color: #000;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   width: 75%;
 }
 span {
   color: #000;
-  font-size: 28px !important;
+  font-size: 18px !important;
   font-style: normal;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -211,7 +211,7 @@ span {
   margin-bottom: 10vh;
 }
 .offer_services {
-  font-size: 50px;
+  font-size: 36px;
   color: #000;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -232,7 +232,7 @@ span {
   flex-direction: column;
   align-items: left;
   width: 500px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 .home_services_li {
@@ -240,7 +240,6 @@ span {
   color: #000;
 }
 .home_services_ul1 {
-  /* margin-left: 200px !important; */
   width: 500px !important;
 }
 /* contact */
@@ -256,7 +255,7 @@ span {
   background-color: black;
   width: 100%;
   height: 300px;
-  opacity: 0.8;
+  opacity: -0.2;
 }
 
 .schedule {
@@ -285,7 +284,6 @@ span {
   height: 75px;
   margin-top: -92px;
   margin-right: 400px;
-  /* padding: -200px; */
 }
 
 .whatBtn {
@@ -326,7 +324,6 @@ span {
   font-family: Raleway;
   margin: auto;
   margin-right: 230px;
-  /* margin-top: 10px; */
   text-decoration: underline;
 }
 
@@ -336,6 +333,7 @@ span {
   font-family: Raleway;
   top: -400px;
   font-weight: 700;
+  color: #000000;
 }
 
 .about-services img {
@@ -425,7 +423,7 @@ span {
     margin-top: -8px;
     position: relative;
     font-size: 25px;
-    left: 15px;
+    padding-left: 10px;
   }
 
   .whatsapp-img {
@@ -443,11 +441,11 @@ span {
     position: relative;
     margin-top: -1px;
     font-size: 17px;
-    left: 72px;
+    padding-left: 65px;
   }
 
   .whatsapp-chat h4 {
-    margin-right: 285px;
+    margin-right: 215px;
   }
 
   .about-services h1 {
@@ -469,7 +467,6 @@ span {
   .about-services button {
     display: flex;
     align-items: center;
-    /* left: auto; */
     margin-left: -90px;
     padding: 0 45px;
     margin-top: 30px;
