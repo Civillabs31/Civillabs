@@ -250,7 +250,6 @@
 
 .heading3 h5 {
   line-height: 50px;
-  /* font-weight: 600; */
 }
 
 .heading3 h5 {
@@ -444,13 +443,17 @@
 .Social-heading{
   position: relative;
 font-family: Raleway;
-font-size: 54px;
-font-weight: bold;
 text-align: center;
 top: -60px;
 color: #000000;
 
 }
+
+.Social-heading h1{
+  font-weight: 700;
+
+}
+
 
 .public-service{
   height: 52px;
@@ -554,12 +557,12 @@ top: -50px;
   }
 
   .card2 h6 {
-    width: 183px;
+    width: 182px;
   }
 
   .about-us2 #commit {
     margin-top: -20px;
-    margin-left: 165px;
+    margin-left: 173px;
   }
 
   .about-us3 {
@@ -588,12 +591,12 @@ top: -50px;
   }
 
   #con {
-    margin-left: -27px;
+    margin-left: -17px;
     margin-top: -30px;
   }
 
   #coll {
-    margin-left: -25px;
+    margin-left: -12px;
   }
 
   #cont {

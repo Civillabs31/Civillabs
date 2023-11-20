@@ -64,21 +64,26 @@ function Contact() {
                 if (values.phone.length==10) {
                     let time=new Date();
     
-                    let response = await fetch('https://sheet.best/api/sheets/5f8e5d4b-f015-4a90-b8b8-a6aa2fa8a9f7',({
+                    let response = await fetch('https://sheetdb.io/api/v1/g37poy4qnqr48',({
                         method:'POST',
-                        headers:{
-                            'Content-Type':'application/json'
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
                         },
                         body:JSON.stringify({
-                            Name:values.name,
-                            Email:values.email,
-                            Phone:values.phone,
-                            Message:values.message,
-                            Date:`${time.getDate()}-${time.getMonth()}-${time.getFullYear()}`
+                            data: [
+                                {
+                                    Name:values.name,
+                                    Email:values.email,
+                                    Phone:values.phone,
+                                    Message:values.message,
+                                    Date:`${time.getDate()}-${time.getMonth()}-${time.getFullYear()}`
+                                }
+                            ]
                         })
                     }))   
-    
-                    if (response.status==200) {
+
+                    if (response.status==201 || response.status==200) {
                         setvalues({
                             name:'',
                             email:'',
@@ -109,7 +114,7 @@ function Contact() {
   return (
     <div className='contactpage'>
         <div className="contactpanel">
-            <div className="panelholder">Contact Us</div>
+            <div className="panelholder">CONTACT US</div>
                 <div className="layers">
                     <div className="layer1"></div>
                     <div className="layer2"></div>
@@ -143,8 +148,7 @@ function Contact() {
                             <img src={phone} alt="map" className='contacticons'/>
                             Mobile</div>
                         <div className="address1" id='ad1'>
-                            <p>9867410540</p>
-                            <p>9820616093</p>
+                            <p>9967410510</p>
                         </div>
                     </div>
                     <div className="contactinfo">
@@ -164,7 +168,7 @@ function Contact() {
                     <input type="number" id='inp3' name='phone' placeholder='Phone Number *' value={values.phone} onChange={ChangeListener} required />
                     <textarea  id="inp4" name='message' cols="30" rows="7" placeholder='Message' value={values.message} onChange={ChangeListener} required ></textarea>
                 <div className="acceptance">
-                    <p><input type="checkbox" name="correct" id="correct" value="approved" /> I Accept Terms and Conditions (if any)</p>
+                    <p><input type="checkbox" name="correct" id="correct" value="approved" /> I hereby confirm that all details mentioned above are correct</p>
                     <button onClick={Submit}>Submit</button>
                 </div>
 
