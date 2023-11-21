@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/About.css'
-import Construction from '../images/construction-blueprint-5200849.webp';
+import Construction from '../images/poster.png';
 import Logo from '../images/No_Bg_Logo.png';
 import Png1 from '../images/excellence.png';
 import Png2 from '../images/determination.png';

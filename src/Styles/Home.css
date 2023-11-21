@@ -848,22 +848,26 @@ span {
   }
 }
 @media (max-width: 370px) {
-  .schedule h1 h4 {
+  .schedule h1 {
     text-align: center;
     font-size: 20px;
-    margin-left: -40px;
+    margin-left: -200px;
+  }
+
+  .schedule h4{
+    padding-left: 50px;
   }
 
   .about-services img {
     width: 220px;
     height: 120px;
-    margin: -135px 0 0 207px;
+    margin: -135px 0 0 222px;
   }
 
   .about-services #black-img{
     width: 214px;
     height: 120px;
-    margin-left: 203px;
+    margin-left: 222px;
 
   }
 }
