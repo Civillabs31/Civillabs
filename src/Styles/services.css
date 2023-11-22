@@ -61,6 +61,17 @@
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.accordian_list2{
+  display: none;
+}
+.accordian_list_ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .accordion__panel {
   height: 270px;
@@ -68,14 +79,44 @@
 @media screen and (max-width: 1140px) {
   .accordian_left,
   .accordian_right {
-    width: 350px;
+    width: 450px;
   }
+}
+@media screen and (max-width: 1024px) {
+  .accordian_left,
+  .accordian_right {
+    width: 400px;
+  }
+  .accordian_list1{
+    display: none;
+  }
+  .accordian_list2{
+    display: flex;
+  }
+  .accordion__panel {
+    height: 350px;
+ }
 }
 @media screen and (max-width: 880px) {
   .accordian_left,
   .accordian_right {
-    width: 280px;
+    width: 330px;
   }
+}
+@media screen and (max-width: 768px) {
+  .accordian_container{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .accordian_left,.accordian_right{
+    width: 500px;
+  }
+  .accordian_list1{
+    display: flex;
+  }
+  .accordian_list2{
+    display: none;
+ }
 }
 @media screen and (max-width: 660px) {
   .accordian_container{
@@ -94,6 +135,12 @@
 @media screen and (max-width: 480px) {
   .accordian_left,.accordian_right{
     width: 400px;
+  }
+  .accordian_list2{
+    display: flex;
+  }
+  .accordian_list1{
+    display: none;
   }
 }
 @media screen and (max-width: 425px) {

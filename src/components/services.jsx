@@ -12,6 +12,10 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 function services() {
+  const centralList = ["Mumbai CST", "Masjid Bunder", "Sandhurst Road", "Byculla", "Chinchpokli", "Currey Road", "Parel", "Dadar", "Matunga", "Sion", "Kurla", "Vidyavihar", "Ghatkopar", "Vikhroli", "Kanjurmarg", "Bhandup", "Nahur", "Mulund", "Thane", "Kalwa", "Mumbra", "Diwa", "Dombivli", "Thakurli", "Kalyan"];
+  const harbourList = ["Dockyard Road", "Reay Road", "Cotton Green", "Sewri", "Wadala Road", "King's Circle", "Guru Tegh Bahadur Nagar", "Chunabhatti", "Tilak Nagar", "Chembur", "Govandi", "Mankhurd", "Vashi", "Sanpada", "Juinagar", "Nerul", "Seawoods", "Belapur", "Kharghar", "Mansarovar", "Khandeshwar", "Panvel", "Turbhe", "Kopar Khairane", "Ghansoli", "Airoli"];
+  const majorAreas = ["Worli", "Versova", "Swami Vivekananda Road", "Seven Bungalows Andheri", "Saki Naka", "Powai", "Peddar Road", "Nariman Point", "MIDC Andheri", "East Malabar Hill", "Lokhandwala", "Complex Link Road", "LBS Marg", "Four Bungalows Andheri", "Fort", "Cuffe Parade", "CST Road", "Colaba"];
+  const westernList = ["Churchgate", "Marine Lines", "Charni Road", "Grant Road", "Mumbai Central", "Mahalaxmi", "Lower Parel", "Elphinstone Road", "Matunga Road", "Mahim", "Bandra", "Khar Road", "Santacruz", "Vile Parle", "Andheri", "Jogeshwari", "Goregaon", "Malad", "Kandivali", "Borivali", "Dahisar", "Mira Road", "Bhayandar", "Naigaon", "Vasai Road", "Nala Sopara", "Virar"];
 
   let redirect =()=>{
     window.location.href="/rates"
@@ -83,8 +87,8 @@ function services() {
         <div className="singleLine"></div>
         <div className='available'><h1>We are Available at</h1></div>
         <div className='accordian_container'>
-          <div className='accordian_left'>
-            <Accordion className='accordian_row'>
+        <div className='accordian_left'>
+            <Accordion allowZeroExpanded className='accordian_row'>
               <AccordionItem className='accordian_row_col'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -92,9 +96,15 @@ function services() {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className='accordian_list'>
-                    Mumbai CST, Masjid Bunder, Sandhurst Road, Byculla, Chinchpokli, Currey Road, Parel, Dadar, Matunga, Sion, Kurla, Vidyavihar, Ghatkopar, Vikhroli, Kanjurmarg, Bhandup, Nahur, Mulund, Thane, Kalwa, Mumbra, Diwa, Dombivli, Thakurli, Kalyan.
-                  </p>
+                  <div className='accordian_list1 accordian_list'>
+                    <ul className='accordian_list_ul'>{centralList.slice(0, 10).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{centralList.slice(10, 20).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{centralList.slice(20,).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
+                  <div className='accordian_list2 accordian_list'>
+                    <ul className='accordian_list_ul'>{centralList.slice(0, 13).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{centralList.slice(13).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem className='accordian_row_col'>
@@ -104,15 +114,21 @@ function services() {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className='accordian_list'>
-                    Dockyard Road, Reay Road, Cotton Green, Sewri, Wadala Road, King's Circle, Guru Tegh Bahadur Nagar, Chunabhatti ,Tilak Nagar, Chembur, Govandi, Mankhurd, Vashi, Sanpada, Juinagar, Nerul, Seawoods, Belapur, Kharghar, Mansarovar, Khandeshwar, Panvel, Turbhe, Kopar Khairane, Ghansoli, Airoli.
-                  </p>
+                  <div className='accordian_list accordian_list1'>
+                    <ul className='accordian_list_ul'>{harbourList.slice(0, 10).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{harbourList.slice(10, 20).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{harbourList.slice(20,).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
+                  <div className='accordian_list accordian_list2'>
+                    <ul className='accordian_list_ul'>{harbourList.slice(0, 13).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{harbourList.slice(13).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
                 </AccordionItemPanel>
               </AccordionItem>
             </Accordion>
           </div>
           <div className='accordian_right'>
-            <Accordion className='accordian_row'>
+            <Accordion allowZeroExpanded className='accordian_row'>
               <AccordionItem className='accordian_row_col'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -120,9 +136,15 @@ function services() {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className='accordian_list'>
-                    Churchgate, Marine Lines, Charni Road, Grant Road, Mumbai Central, Mahalaxmi, Lower Parel, Elphinstone Road, Matunga Road, Mahim, Bandra, Khar Road, Santacruz, Vile Parle, Andheri, Jogeshwari, Goregaon, Malad, Kandivali, Borivali, Dahisar, Mira Road, Bhayandar, Naigaon, Vasai Road, Nala Sopara, Virar.
-                  </p>
+                  <div className='accordian_list accordian_list1'>
+                    <ul className='accordian_list_ul'>{westernList.slice(0, 10).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{westernList.slice(10,20).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{westernList.slice(20,).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
+                  <div className='accordian_list accordian_list2'>
+                    <ul className='accordian_list_ul'>{westernList.slice(0, 14).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{westernList.slice(14).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem className='accordian_row_col'>
@@ -132,9 +154,15 @@ function services() {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className='accordian_list'>
-                    Worli, Versova, Swami Vivekananda Road, Seven Bungalows Andheri, Saki Naka, Powai, Peddar Road, Nariman Point, MIDC Andheri, East Malabar Hill, Lokhandwala, Complex Link Road, LBS Marg, Four Bungalows Andheri, Fort, Cuffe Parade, CST Road, Colaba.
-                  </p>
+                  <div className='accordian_list accordian_list1'>
+                    <ul className='accordian_list_ul'>{majorAreas.slice(0, 9).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{majorAreas.slice(9,20).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{majorAreas.slice(20,).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
+                  <div className='accordian_list accordian_list2'>
+                    <ul className='accordian_list_ul'>{majorAreas.slice(0, 9).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                    <ul className='accordian_list_ul'>{majorAreas.slice(9).map((item) => { return <li className='accordian_list_li'>{item}</li> })}</ul>
+                  </div>
                 </AccordionItemPanel>
               </AccordionItem>
             </Accordion>
