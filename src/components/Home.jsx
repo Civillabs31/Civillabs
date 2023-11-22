@@ -53,6 +53,7 @@ const Home = () => {
             }
         ]
     };
+
     return (
         <>
             <div className='home_div'>
@@ -132,7 +133,7 @@ const Home = () => {
                         <div className="whatsapp-chat">
                             <img className="whatsapp-img" src={img5} alt="whatsapp-logo" />
                             <a href='https://wa.me/919967410510' target='_blank' className="whatBtn">Chat with Us</a>
-                            <h4>Contact Us →</h4>
+                            <h4 onClick={() => window.location.href = "/contact"} style={{textDecoration:"none"}} >Contact Us →</h4>
                         </div>
                     </div>
                     <div className="about-services">
@@ -146,7 +147,7 @@ const Home = () => {
                             Plumbing
                             Solar panel
                         </h6>
-                        <button className="KnowBtn" type="button">Know More →</button>
+                        <button className="KnowBtn" type="button" onClick={() => window.location.href = "/services"}>Know More →</button>
                     </div>
                 </div>
             </div>
