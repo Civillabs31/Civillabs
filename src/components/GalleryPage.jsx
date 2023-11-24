@@ -1,11 +1,14 @@
 import React, { useState} from 'react';
 import '../Styles/Gallery.css';
-import img1 from '../images/1.webp';
-import img2 from '../images/2.webp';
-import img3 from '../images/3.webp';
-import img4 from '../images/4.webp';
-import img5 from '../images/5.webp';
-import img6 from '../images/6.webp';
+import imgwoodwork from '../images/2.webp'; //woodwork
+import imgconstruct from '../images/4.webp'; //construction
+import imgconstruction from '../images/5.webp'; //construction
+import imgall from '../images/6.webp'; //all
+import imghome from '../images/9.webp'; //house mantainance
+import imghouse from '../images/house.webp'; //house mantainance
+import imgkitchen from '../images/kitchen.webp'; //interior
+import imgpaint from '../images/paint.webp'; //painting
+import imginterior from '../images/interior.webp'; //interior
 
 const GalleryPage = () => {
     const [isActive, setActive] = useState(false);
@@ -25,46 +28,67 @@ const GalleryPage = () => {
 
     const images = [
         {
-            src: img1,
-            width: 320,
-            height: 174,
-            category: 'Construction',
-            class: 'v-stretch',
-        },
-        {
-            src: img2,
+            src: imghouse,
             width: 320,
             height: 212,
             category: 'House Maintenance',
-            class: 'h-stretch',
+            class: 'v-stretch',
         },
         {
-            src: img3,
-            width: 320,
-            height: 212,
-            category: 'Interior',
-            class: 'h-stretch',
-        },
-        {
-            src: img4,
+            src: imgconstruct,
             width: 320,
             height: 174,
-            category: 'Woodwork',
+            category: 'Construction',
             class: 'big-stretch',
         },
         {
-            src: img5,
+            src: imginterior,
+            width: 320,
+            height: 212,
+            category: 'Interior',
+            class: 'v-stretch',
+        },
+        {
+            src: imgwoodwork,
+            width: 320,
+            height: 174,
+            category: 'Woodwork',
+            class: 'v-stretch',
+        },
+        {
+            src: imgpaint,
             width: 320,
             height: 174,
             category: 'Painting',
             class: 'v-stretch',
         },
         {
-            src: img6,
+            src: imgconstruction,
             width: 320,
             height: 174,
-            category: 'Woodwork',
+            category: 'Construction',
             class: 'big-stretch',
+        },
+        {
+            src: imgkitchen,
+            width: 320,
+            height: 174,
+            category: 'Interior',
+            class: 'v-stretch',
+        },
+        {
+            src: imghome,
+            width: 320,
+            height: 174,
+            category: 'House Maintenance',
+            class: 'big-stretch',
+        },
+        {
+            src: imgall,
+            width: 320,
+            height: 174,
+            category: '',
+            class: 'v-stretch',
         },
     ]
     return (
