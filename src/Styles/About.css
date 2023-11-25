@@ -86,6 +86,7 @@
 
 .mssg1 {
   position: relative;
+  text-align: center;
   top: -800px;
   font-family: Raleway;
   font-size: 14px;
@@ -97,6 +98,7 @@
 
 .mssg2 {
   position: relative;
+  text-align: center;
   top: -770px;
   font-family: Raleway;
   font-size: 14px;
@@ -108,6 +110,7 @@
 
 .mssg3 {
   position: relative;
+  text-align: center;
   top: -740px;
   font-family: Raleway;
   font-size: 14px;
@@ -119,6 +122,7 @@
 
 .mssg4 {
   position: relative;
+  text-align: center;
   top: -710px;
   font-family: Raleway;
   font-size: 14px;
@@ -130,6 +134,7 @@
 
 .mssg5 {
   position: relative;
+  text-align: center;
   top: -680px;
   font-family: Raleway;
   font-size: 14px;
@@ -141,6 +146,7 @@
 
 .mssg6 {
   position: relative;
+  text-align: center;
   top: -640px;
   font-family: Raleway;
   font-size: 14px;
@@ -152,6 +158,7 @@
 
 .mssg7 {
   position: relative;
+  text-align: right;
   top: -600px;
   font-family: Raleway;
   font-size: 14px;
@@ -289,7 +296,7 @@
 .card1 h6 {
   width: 230px;
   margin-left: -90px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -325,7 +332,7 @@
 .card2 h6 {
   width: 250px;
   margin-left: -90px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -369,7 +376,7 @@
 .card3 h6 {
   width: 250px;
   margin-left: -90px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -404,7 +411,7 @@
 .card4 h6 {
   width: 250px;
   margin-left: -90px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -465,7 +472,7 @@ font-family: Raleway;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 width: 793px;
 color: #000000;
 margin: auto;
@@ -478,7 +485,7 @@ display: block;
 font-family: Raleway;
 font-size: 14px;
 font-weight: 500;
-text-align: right;
+text-align: center;
 width: 793px;
 color: #000000;
 top: 60px;
@@ -492,7 +499,7 @@ font-family: Raleway;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 width: 793px;
 color: #000000;
 margin: auto;
@@ -540,7 +547,7 @@ top: -50px;
 
   .about-us #deter {
     margin-top: 80px;
-    margin-right: -75px;
+    margin-right: -81px;
   }
 
   .about-us2 {
@@ -592,7 +599,7 @@ top: -50px;
 
   #con {
     margin-left: -17px;
-    margin-top: -30px;
+    margin-top: -10px;
   }
 
   #coll {

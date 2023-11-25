@@ -73,7 +73,7 @@ const Home = () => {
                 <div className='circle'></div>
                 <div className='home_container1'>
                     <h2 className='whychooseus'>Why Choose Us?</h2>
-                    <p className='whychooseus_text'>Your  Top Choice for Home Improvement and society renovation work and Annual maintenance contract in the region - <span>Leading contracting company in the City</span>
+                    <p className='whychooseus_text'>Your  Top Choice for Home Improvement and society renovation work and Annual maintenance contract in the region - <span>Leading contracting company in the City.</span>
                         <br></br>
                         <br></br>
                         We are one of the best contracting company in the region with experience technology and expertise.</p>

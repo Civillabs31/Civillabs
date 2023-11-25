@@ -83,6 +83,14 @@ function services() {
             <li>Electrical repair</li>
           </ul>
         </div>
+        <div className="quotationbox2">
+        <h2><u style={{color:'white'}}>
+          <NavLink to="/Special_Service">
+          Checkout Special Sevices
+            <img src={rightarrow} style={{width:"2.5rem",'position':'relative' ,'left':"1vw"}} alt="right_arrow" />
+          </NavLink>
+          </u></h2>
+        </div>
         <button className="rateBtn" onClick={redirect}>Click here to Know the Rates ➜</button>
         <div className="singleLine"></div>
         <div className='available'><h1>We are Available at</h1></div>
@@ -169,14 +177,7 @@ function services() {
           </div>
         </div>
 
-        <div className="quotationbox2">
-        <h2><u style={{color:'white'}}>
-          <NavLink to="/Special_Service">
-          Checkout Special Sevices
-            <img src={rightarrow} style={{width:"2.5rem",'position':'relative' ,'left':"1vw"}} alt="right_arrow" />
-          </NavLink>
-          </u></h2>
-        </div>
+        
 
       </div>
 

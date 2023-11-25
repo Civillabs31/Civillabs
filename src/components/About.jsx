@@ -53,7 +53,7 @@ function About() {
     <div className='messgC'>
     <p className='mssg3'><b>A Modern Twist on Tradition</b><br></br>
     While we cherish our heritage, we also recognize the importance of adapting to the changing times. With a 
-    fresh perspective, we are excited to introduce new elements and ideas to [ civil labs ] that reflect the 
+    fresh perspective, we are excited to introduce new elements and ideas to civil labs that reflect the 
     needs and expectations of today's customers.
     </p>
     </div>
@@ -71,7 +71,7 @@ function About() {
     <p className='mssg5'><b>Community and Family</b><br></br>
     Our parents always emphasized the importance of community and treating customers like family. We wholeheartedly
      embrace this philosophy and strive to create a warm, inviting atmosphere for every member of our extended  family 
-     of Civil labs .
+     of Civil labs.
     
     </p>
     </div>
@@ -86,7 +86,7 @@ function About() {
     </p>
 
     <p className='mssg7'>Warm regards,<br></br>
-    Ravi R Kosgi</p>
+    Ravi R Kosgi.</p>
 
     </div>
     </div>
@@ -98,7 +98,7 @@ function About() {
       <p>At civil labs, our mission is to deliver exceptional construction solutions that
         transform visions into reality. Guided by our core values of experience,
         technology, and expertise, we are dedicated to, Exceeding Client Expectations,
-        Embracing Innovation, Fostering Expertise, Maintaining Quality</p>
+        Embracing Innovation, Fostering Expertise, Maintaining Quality.</p>
       <div className="line1"></div>
     </div>
     <div className="heading2">
