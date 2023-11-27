@@ -211,6 +211,15 @@ input[type="checkbox"]{
     bottom: 1px;
 }
 
+.contactform img{
+    cursor: pointer;
+    margin-top: 5vh;
+    width: 66vw;
+    height: 38vh;
+    border: 1px solid grey;
+    border-radius: 3px;
+} 
+
 #id{
     position: relative;
     top: 10px;
@@ -230,6 +239,11 @@ input[type="checkbox"]{
     .contactform h3{
         font-size: 2rem;
         margin-top: 25vw;
+    }
+
+    .contactform img{
+        width: 80vw;
+        height: 16vh;
     }
 
     .contactinfodetails .contactheaderinfo{
@@ -314,6 +328,11 @@ input[type="checkbox"]{
 @media screen and (min-width:768px) and (max-width:1024px) {
     #inp1 , #inp2, #inp3, #inp4{
         width: 75vw;
+    }
+
+    .contactform img{
+        width: 75vw;
+        height: 28vh;
     }
     
     .contactform .acceptance {
