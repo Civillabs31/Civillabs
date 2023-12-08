@@ -7,7 +7,7 @@ import mailb from '../images/mailb.png'
 import phone from '../images/phone.png'
 import envelope from '../images/envelope.png'
 import close from '../images/close.png'
-import civillabslocation from '../images/civillabslocation.webp'
+import civillabslocation from '../images/civillabslocation.png'
 import '../Styles/Contact-Popup.css'
 
 function Contact() {
@@ -173,7 +173,9 @@ function Contact() {
                     <button onClick={Submit}>Submit</button>
                 </div>
 
-                <a href="https://www.google.com/maps/place/Shree+ram+nagar+western+express+highway+vileparle+east+mumbai+no+400099/@19.0912064,72.8485464,17z/data=!4m7!3m6!1s0x3be7c9e06fe8a86f:0xeb57db8e60f0facd!4b1!8m2!3d19.0918401!4d72.8472804!16s%2Fg%2F11k2jj4z46?entry=ttu"><img src={civillabslocation} alt="civillabs_location" /></a>
+                <div className="imgpanel">
+                    <a href="https://g.co/kgs/UKSmA9"><img src={civillabslocation} alt="civillabs_location" /></a>
+                </div>
                 
                 <ToastContainer
                     position="top-center"
