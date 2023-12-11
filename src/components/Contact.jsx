@@ -9,6 +9,8 @@ import envelope from '../images/envelope.png'
 import close from '../images/close.png'
 import civillabslocation from '../images/civillabslocation.png'
 import '../Styles/Contact-Popup.css'
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 function Contact() {
     const[values,setvalues]=useState({
@@ -192,6 +194,7 @@ function Contact() {
                 </div>
             </div>
             {values.modal && <Designmodal/>}
+            <SpeedInsights />
     </div>
   )
 }
