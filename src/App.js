@@ -10,6 +10,7 @@ import Rates from './components/Rates';
 import Services from './components/services';
 import EmailButton from './components/mail';
 import Special_Service from './components/Special_Service';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
