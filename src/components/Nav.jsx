@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import '../Styles/Nav.css';
 import logo from '../images/logo.png';
@@ -18,10 +19,16 @@ const Nav = () => {
                     </div>
                 </NavLink>
                 <div className='head_right'>
+                    {!check && <div className='hourly-nav'>
+                    <i class="fa-regular fa-clock" style={{color:"white",fontSize:"28px"}}></i>
+                    <p className='head_title1'>24/7</p>
+                    </div>}
+                    <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
                     <i className="fa-solid fa-phone phone_icon"></i>
                     <a href='#' className='call' onClick={() => { navigator.clipboard.writeText('9967410510'); toast.success('Copied to Clipboard') }}><p className='head_title1'>9967 410 510</p></a>
                     <div className='menu-bar' onClick={() => { setCheck(!check) }}>
                         {!check ? <i class="fa-solid fa-bars nav-menu"></i> : <i class="fa-solid fa-bars-staggered nav-menu" style={{ color: '#fec119' }}></i>}
+                    </div>
                     </div>
                 </div>
             </div>

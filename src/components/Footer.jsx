@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="footercivil">
           <h3> <img src={logo} alt="Logo" /> Civil labs</h3>
           <h5 className='footermissionary'>
-            Civil labs mission is to achieve <br /> excellence in Service, Quality, Reliability, <br /> Safety, Customer Satisfaction and Build <br /> long lasting customer relationship that <br /> will make us Contracting Company.
+            Civil labs mission is to achieve <br /> excellence in Service, Quality, Reliability, <br /> Safety, Customer Satisfaction and Build <br /> long lasting customer relationship that <br /> will make us No. 1 Contracting Company.
           </h5><br />
           <h5 className='footermail'><img onClick={mail_direct} className='footericon' id='mailiconmobile' src={mail} alt="mail" /> info@civillabs.co.in <img onClick={mail_direct} className='footericon' id='mailicon' src={mail} alt="mail" /> </h5>
           <h5 className='footermail' id='footerimageicon'><a href='https://wa.me/919967410510' target='_blank'><img className='footericon' src={whatsapp} alt="whatsapp" /></a> <a href="https://www.facebook.com/profile.php?id=61552816973450" target='_blank'> <img className='footericon' src={facebook} alt="facebook" /> </a> <a href="https://www.instagram.com/civillabs_web/" target='_blank'> <img className='footericon' src={instagram} alt="instagram" /> </a> </h5>
